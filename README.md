@@ -1,1 +1,1 @@
-# background-generator
+# Email sender
