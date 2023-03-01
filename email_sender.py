@@ -8,7 +8,7 @@ html = Template(Path('index.html').read_text())
 email = EmailMessage()
 email['from'] = 'sender's email'
 email['to'] = 'email of the person sending'
-email['subject'] = 'You won my love!'
+email['subject'] = 'Despription in the email'
 
 email.set_content(html.substitute(name = 'description'), 'html')
 
